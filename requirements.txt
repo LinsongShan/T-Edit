@@ -1,0 +1,11 @@
+torch>=2.1.0,<2.2
+einops==0.8.0
+transformers==4.41.2
+huggingface-hub==0.24.6
+sentencepiece
+safetensors
+numpy==1.26.4
+Pillow
+tqdm
+opencv-python==4.10.0.84
+invisible-watermark==0.2.0
