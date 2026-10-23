@@ -51,15 +51,6 @@ python edit.py  --source_prompt 'A boy is riding a horse' \
                 --output_dir ./examples/edit/Camel
 ```
 
-```python
-python edit.py --source_prompt 'A cat is on a wooden chair' \
-               --target_prompt 'A dog is on a wooden chair' \
-               --guidance 2 \
-               --source_img_dir ./examples/source/cat.jpg \
-               --num_steps 30 \
-               --name 'flux-dev' --offload \
-               --output_dir ./examples/edit/cat
-```
 
 Each run saves a reconstruction as `img_0.jpg` and the edited result as
 `img_1.jpg` in the output directory.
